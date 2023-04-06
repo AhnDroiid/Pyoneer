@@ -2,7 +2,7 @@ import torch
 import torchvision.datasets as dsets
 from torchvision import transforms
 
-
+AAAA
 class Data_Loader():
     def __init__(self, train, dataset, image_path, image_size, batch_size, shuf=True):
         self.dataset = dataset
